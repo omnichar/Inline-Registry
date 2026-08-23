@@ -499,6 +499,40 @@
       "group": "minimax-h3-text-encoder"
     },
     {
+      "id": "minimax-h3-text-encoder-nvfp4",
+      "label": "Text encoder, Qwen3-VL-32B nvfp4 (15.7 GB)",
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "category": "text_encoders",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MiniMax-H3",
+        "path": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+      },
+      "verified": true,
+      "size_bytes": 15687142551,
+      "updated": "2026-08-23",
+      "precision": "nvfp4_awq",
+      "group": "minimax-h3-text-encoder",
+      "optional": true
+    },
+    {
+      "id": "minimax-h3-text-encoder-bf16",
+      "label": "Text encoder, Qwen3-VL-32B bf16 single file (51.5 GB)",
+      "filename": "qwen3vl_32b_minimax_h3_bf16.safetensors",
+      "category": "text_encoders",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MiniMax-H3",
+        "path": "text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors"
+      },
+      "verified": true,
+      "size_bytes": 51506295256,
+      "updated": "2026-08-23",
+      "precision": "bf16",
+      "group": "minimax-h3-text-encoder",
+      "optional": true
+    },
+    {
       "id": "gemma4-12b-with-proj-ltx-2-5-bf16",
       "label": "Text encoder, Gemma 4 12B (26.3 GB)",
       "filename": "gemma4-12b-with-proj-ltx-2.5-bf16.safetensors",
