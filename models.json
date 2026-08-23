@@ -363,6 +363,23 @@
       "group": "minimax-h3-ref2va"
     },
     {
+      "id": "minimax-h3-ref2va-pruned-fp8-scaled",
+      "label": "Ref2VA transformer, fp8 (21.0 GB, generation only)",
+      "filename": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "category": "diffusion_models",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MiniMax-H3",
+        "path": "diffusion_models/minimax_h3_ref2va_pruned_fp8_scaled.safetensors"
+      },
+      "verified": true,
+      "optional": true,
+      "size_bytes": 20958205608,
+      "updated": "2026-08-23",
+      "precision": "pruned_fp8_scaled",
+      "group": "minimax-h3-ref2va"
+    },
+    {
       "id": "z-image-bf16",
       "label": "Diffusion model",
       "filename": "z_image_bf16.safetensors",
