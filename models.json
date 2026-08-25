@@ -322,7 +322,7 @@
         "path": "diffusion_models/minimax_h3_fl2va_bf16.safetensors"
       },
       "verified": true,
-      "optional": false,
+      "optional": true,
       "size_bytes": 66280487368,
       "updated": "2026-08-17",
       "precision": "bf16",
@@ -339,7 +339,7 @@
         "path": "diffusion_models/minimax_h3_fl2va_pruned_fp8_scaled.safetensors"
       },
       "verified": true,
-      "optional": true,
+      "optional": false,
       "size_bytes": 20958205608,
       "updated": "2026-08-17",
       "precision": "pruned_fp8_scaled",
@@ -373,7 +373,7 @@
         "path": "diffusion_models/minimax_h3_ref2va_pruned_fp8_scaled.safetensors"
       },
       "verified": true,
-      "optional": true,
+      "optional": false,
       "size_bytes": 20958205608,
       "updated": "2026-08-23",
       "precision": "pruned_fp8_scaled",
@@ -492,7 +492,7 @@
         "path": "FL2VA/text_encoder"
       },
       "verified": true,
-      "optional": false,
+      "optional": true,
       "size_bytes": 66726510529,
       "updated": "2026-08-17",
       "precision": "",
@@ -513,7 +513,7 @@
       "updated": "2026-08-23",
       "precision": "nvfp4_awq",
       "group": "minimax-h3-text-encoder",
-      "optional": true
+      "optional": false
     },
     {
       "id": "minimax-h3-text-encoder-bf16",
