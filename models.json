@@ -312,6 +312,23 @@
       "group": "ltx-2-5-22b-distilled-transformer"
     },
     {
+      "id": "minimax-h3-fl2va-pruned-int8-convrot",
+      "label": "FL2VA transformer, int8 (21.0 GB, generation only)",
+      "filename": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "category": "diffusion_models",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MiniMax-H3",
+        "path": "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors"
+      },
+      "verified": true,
+      "optional": false,
+      "size_bytes": 20970379616,
+      "updated": "2026-09-25",
+      "precision": "pruned_int8_convrot",
+      "group": "minimax-h3-fl2va"
+    },
+    {
       "id": "minimax-h3-fl2va-bf16",
       "label": "FL2VA transformer (66.3 GB)",
       "filename": "minimax_h3_fl2va_bf16.safetensors",
@@ -339,11 +356,28 @@
         "path": "diffusion_models/minimax_h3_fl2va_pruned_fp8_scaled.safetensors"
       },
       "verified": true,
-      "optional": false,
+      "optional": true,
       "size_bytes": 20958205608,
       "updated": "2026-08-17",
       "precision": "pruned_fp8_scaled",
       "group": "minimax-h3-fl2va"
+    },
+    {
+      "id": "minimax-h3-ref2va-pruned-int8-convrot",
+      "label": "Ref2VA transformer, int8 (21.0 GB, generation only)",
+      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "category": "diffusion_models",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MiniMax-H3",
+        "path": "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+      },
+      "verified": true,
+      "optional": false,
+      "size_bytes": 20970379616,
+      "updated": "2026-09-25",
+      "precision": "pruned_int8_convrot",
+      "group": "minimax-h3-ref2va"
     },
     {
       "id": "minimax-h3-ref2va-bf16",
@@ -373,7 +407,7 @@
         "path": "diffusion_models/minimax_h3_ref2va_pruned_fp8_scaled.safetensors"
       },
       "verified": true,
-      "optional": false,
+      "optional": true,
       "size_bytes": 20958205608,
       "updated": "2026-08-23",
       "precision": "pruned_fp8_scaled",
@@ -737,8 +771,25 @@
       "group": "minimax-h3-audio-vae"
     },
     {
+      "id": "minimax-h3-video-vae-int8-convrot",
+      "label": "Video VAE, int8 (2.8 GB)",
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "category": "vae",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MiniMax-H3",
+        "path": "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+      },
+      "verified": true,
+      "optional": false,
+      "size_bytes": 2811065184,
+      "updated": "2026-09-25",
+      "precision": "int8_convrot",
+      "group": "minimax-h3-video-vae"
+    },
+    {
       "id": "minimax-h3-video-vae-fp16",
-      "label": "Video VAE (5.2 GB)",
+      "label": "Video VAE, fp16 (5.2 GB)",
       "filename": "minimax_h3_video_vae_fp16.safetensors",
       "category": "vae",
       "source": {
@@ -747,7 +798,7 @@
         "path": "vae/minimax_h3_video_vae_fp16.safetensors"
       },
       "verified": true,
-      "optional": false,
+      "optional": true,
       "size_bytes": 5207808496,
       "updated": "2026-08-17",
       "precision": "fp16",
