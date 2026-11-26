@@ -854,6 +854,91 @@
       "updated": "2026-08-20",
       "precision": "bf16",
       "group": "z-image-turbo"
+    },
+    {
+      "id": "moss-image-sft-int8-convrot",
+      "label": "MOSS-Image SFT, int8 (5.4 GB)",
+      "filename": "moss_image_sft_int8_convrot.safetensors",
+      "category": "diffusion_models",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MOSS-Image",
+        "path": "diffusion_models/moss_image_sft_int8_convrot.safetensors"
+      },
+      "verified": true,
+      "optional": false,
+      "size_bytes": 5413698958,
+      "updated": "2026-11-26",
+      "precision": "int8_convrot",
+      "group": "moss-image-sft"
+    },
+    {
+      "id": "moss-image-sft-bf16",
+      "label": "MOSS-Image SFT, bf16 (10.2 GB)",
+      "filename": "moss_image_sft_bf16.safetensors",
+      "category": "diffusion_models",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MOSS-Image",
+        "path": "diffusion_models/moss_image_sft_bf16.safetensors"
+      },
+      "verified": true,
+      "optional": true,
+      "size_bytes": 10164655808,
+      "updated": "2026-11-26",
+      "precision": "bf16",
+      "group": "moss-image-sft"
+    },
+    {
+      "id": "qwen3-5-9b-int8-convrot",
+      "label": "Text encoder, Qwen3.5-9B int8 (9.7 GB)",
+      "filename": "qwen3.5_9b_int8_convrot.safetensors",
+      "category": "text_encoders",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MOSS-Image",
+        "path": "text_encoders/qwen3.5_9b_int8_convrot.safetensors"
+      },
+      "verified": true,
+      "optional": false,
+      "size_bytes": 9748121532,
+      "updated": "2026-11-26",
+      "precision": "int8_convrot",
+      "group": "qwen3-5-9b"
+    },
+    {
+      "id": "qwen3-5-9b-bf16",
+      "label": "Text encoder, Qwen3.5-9B bf16 (19.3 GB)",
+      "filename": "qwen3.5_9b_bf16.safetensors",
+      "category": "text_encoders",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MOSS-Image",
+        "path": "text_encoders/qwen3.5_9b_bf16.safetensors"
+      },
+      "verified": true,
+      "optional": true,
+      "size_bytes": 19306312328,
+      "updated": "2026-11-26",
+      "precision": "bf16",
+      "group": "qwen3-5-9b"
+    },
+    {
+      "id": "flux2-vae-small",
+      "label": "VAE, FLUX.2 small decoder (0.25 GB)",
+      "filename": "flux2-vae_small.safetensors",
+      "category": "vae",
+      "source": {
+        "kind": "hf_file",
+        "repo": "Comfy-Org/MOSS-Image",
+        "path": "vae/flux2-vae_small.safetensors"
+      },
+      "verified": true,
+      "optional": false,
+      "size_bytes": 249521340,
+      "updated": "2026-11-26",
+      "precision": "",
+      "group": "flux2-vae-small"
     }
   ]
 }
